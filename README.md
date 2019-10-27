@@ -1,3 +1,19 @@
+-----------------
+
+## Added in this fork
+
+The "extendedcolumns" option has been added for non-standard, extra-wide Ansimations. If specified, it extends the column width by the value configured.
+
+For example:
+```
+extendedcolumns: 40
+```
+Causes 40 columns to be added onto the standard 80 column width to make a total column width of 120.
+
+*Why haven't I made a pull request for this? Basically, because it is a quick non-standard feature I needed for a specific wide ASCII I needed to display. It may not work consistently across all file types. Saying that, I have tried to implement it using a similar style as other code in the codebase. It could be absorbed back in if the original maintainer thinks it is a good idea.*
+
+-----------------
+
 ## Description
 
 AnsiLove.js is a partial rewrite of [ansilove][1] and [AnsiLove-C][2] in the Javascript programming language. Unlike the original projects, AnsiLove.js enables artscene related file formats to be displayed directly on a webpage on the client-side, and supports ANSi (.ANS), PCBOARD (.PCB), BiNARY (.BIN), ADF (.ADF), iDF (.IDF), TUNDRA (.TND) and XBiN (.XB) formats.
